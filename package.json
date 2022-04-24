@@ -1,0 +1,31 @@
+{
+  "name": "videochat",
+  "version": "1.0.0",
+  "description": "videochat with webRTC and socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jody29/videoChat.git"
+  },
+  "keywords": [
+    "Socket",
+    "webRTC"
+  ],
+  "author": "Jody Lorist",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jody29/videoChat/issues"
+  },
+  "homepage": "https://github.com/jody29/videoChat#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dateformat": "^5.0.3",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.7",
+    "express": "^4.17.3",
+    "socket.io": "^4.4.1"
+  }
+}
